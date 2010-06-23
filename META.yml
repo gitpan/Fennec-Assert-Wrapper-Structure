@@ -3,7 +3,9 @@ abstract: 'Fennec wrapper for L<Test::Structure>'
 author:
   - 'notbenh <notbenh@cpan.org>'
 build_requires:
+  Fennec: 0
   Test::More: 0
+  Test::Structure: 0
 configure_requires:
   Module::Build: 0.36
 generated_by: 'Module::Build version 0.3607'
@@ -15,7 +17,7 @@ name: Fennec-Assert-Wrapper-Structure
 provides:
   Fennec::Assert::Wrapper::Structure:
     file: lib/Fennec/Assert/Wrapper/Structure.pm
-    version: 0.01
+    version: 0.02
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

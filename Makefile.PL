@@ -5,7 +5,9 @@ WriteMakefile
           'NAME' => 'Fennec::Assert::Wrapper::Structure',
           'VERSION_FROM' => 'lib/Fennec/Assert/Wrapper/Structure.pm',
           'PREREQ_PM' => {
-                           'Test::More' => 0
+                           'Fennec' => 0,
+                           'Test::More' => 0,
+                           'Test::Structure' => 0
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [],
